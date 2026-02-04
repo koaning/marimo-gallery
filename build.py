@@ -31,11 +31,9 @@ def _(Path):
 
 
 @app.cell
-def _(dist, shutil):
-    # Clean and create dist directory
-    if dist.exists():
-        shutil.rmtree(dist)
-    dist.mkdir()
+def _(dist):
+    # Ensure dist directory exists (screenshots live here permanently)
+    dist.mkdir(exist_ok=True)
     return
 
 

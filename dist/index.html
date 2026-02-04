@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marimo Notebook Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Marimo Notebook Gallery</h1>
+            <p class="lead">Discover reactive Python notebooks</p>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <div class="mb-4">
+            <input
+                type="search"
+                class="form-control form-control-lg"
+                id="search"
+                placeholder="Search notebooks..."
+                aria-label="Search notebooks"
+            >
+        </div>
+
+        <div class="mb-4" id="tag-filters">
+            <button class="btn btn-primary btn-sm me-1 mb-1 active" data-tag="all">All</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="alphaXiv">alphaXiv</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="analysis">analysis</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="anywidget">anywidget</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="dashboard">dashboard</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="finance">finance</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="llm">llm</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="math">math</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="widget">widget</button>
+            
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
+            
+            <div class="col" data-tags="anywidget widget" data-name="slider2d" data-description="a 2d slider control for selecting x/y coordinates interactively.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/slider2d.png" class="card-img-top" alt="Screenshot of Slider2D" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Slider2D</h5>
+                        <p class="card-text text-muted">A 2D slider control for selecting x/y coordinates interactively.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/slider2d/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/slider2d.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="matrix" data-description="an interactive matrix editor for manipulating grid data.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/matrix.png" class="card-img-top" alt="Screenshot of Matrix" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Matrix</h5>
+                        <p class="card-text text-muted">An interactive matrix editor for manipulating grid data.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/matrix/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/matrix.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="paint" data-description="a drawing and painting canvas widget for freeform input.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/paint.png" class="card-img-top" alt="Screenshot of Paint" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Paint</h5>
+                        <p class="card-text text-muted">A drawing and painting canvas widget for freeform input.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/paint/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/paint.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="edgedraw" data-description="draw edges between nodes for graph creation.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/edgedraw.png" class="card-img-top" alt="Screenshot of EdgeDraw" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">EdgeDraw</h5>
+                        <p class="card-text text-muted">Draw edges between nodes for graph creation.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/edgedraw/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/edgedraw.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="sortablelist" data-description="a draggable list for reordering items interactively.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/sortablelist.png" class="card-img-top" alt="Screenshot of SortableList" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SortableList</h5>
+                        <p class="card-text text-muted">A draggable list for reordering items interactively.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/sortlist/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/sortlist.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="colorpicker" data-description="an interactive color selection widget.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/colorpicker.png" class="card-img-top" alt="Screenshot of ColorPicker" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ColorPicker</h5>
+                        <p class="card-text text-muted">An interactive color selection widget.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/colorpicker/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/colorpicker.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="gamepadwidget" data-description="capture input from gaming controllers.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/gamepad.png" class="card-img-top" alt="Screenshot of GamepadWidget" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">GamepadWidget</h5>
+                        <p class="card-text text-muted">Capture input from gaming controllers.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/gamepad/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/gamepad.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="keystrokewidget" data-description="capture keyboard input and key combinations.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/keystroke.png" class="card-img-top" alt="Screenshot of KeystrokeWidget" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">KeystrokeWidget</h5>
+                        <p class="card-text text-muted">Capture keyboard input and key combinations.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/keystroke/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/keystroke.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="speechtotext" data-description="convert voice input to text using the browser's speech recognition.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/speechtotext.png" class="card-img-top" alt="Screenshot of SpeechToText" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">SpeechToText</h5>
+                        <p class="card-text text-muted">Convert voice input to text using the browser's speech recognition.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/talk/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/talk.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="copytoclipboard" data-description="a utility widget for copying content to the clipboard.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/copytoclipboard.png" class="card-img-top" alt="Screenshot of CopyToClipboard" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CopyToClipboard</h5>
+                        <p class="card-text text-muted">A utility widget for copying content to the clipboard.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/copytoclipboard/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/copytoclipboard.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="celltour" data-description="create guided tours through notebook cells.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/celltour.png" class="card-img-top" alt="Screenshot of CellTour" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CellTour</h5>
+                        <p class="card-text text-muted">Create guided tours through notebook cells.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/celltour/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/celltour.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="webcamcapture" data-description="capture images from the webcam.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/webcam-capture.png" class="card-img-top" alt="Screenshot of WebcamCapture" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">WebcamCapture</h5>
+                        <p class="card-text text-muted">Capture images from the webcam.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/webcam_capture/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/webcam_capture.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="threewidget" data-description="3d visualization widget using three.js.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/threewidget.png" class="card-img-top" alt="Screenshot of ThreeWidget" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ThreeWidget</h5>
+                        <p class="card-text text-muted">3D visualization widget using Three.js.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/threewidget/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/threewidget.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="htmlrefreshwidget" data-description="render dynamic html content that auto-refreshes.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/htmlwidget.png" class="card-img-top" alt="Screenshot of HTMLRefreshWidget" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">HTMLRefreshWidget</h5>
+                        <p class="card-text text-muted">Render dynamic HTML content that auto-refreshes.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/htmlwidget/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/htmlwidget.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="pulsarchart" data-description="radial chart visualization inspired by pulsar diagrams.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/pulsarchart.png" class="card-img-top" alt="Screenshot of PulsarChart" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">PulsarChart</h5>
+                        <p class="card-text text-muted">Radial chart visualization inspired by pulsar diagrams.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/pulsarchart/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/pulsarchart.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="textcompare" data-description="compare and diff two text inputs side by side.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/textcompare.png" class="card-img-top" alt="Screenshot of TextCompare" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">TextCompare</h5>
+                        <p class="card-text text-muted">Compare and diff two text inputs side by side.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/textcompare/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/textcompare.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="envconfig" data-description="configure environment variables interactively.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/envconfig.png" class="card-img-top" alt="Screenshot of EnvConfig" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">EnvConfig</h5>
+                        <p class="card-text text-muted">Configure environment variables interactively.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/envconfig/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/envconfig.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="tangle" data-description="interactive number manipulation with draggable values in text.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/tangle.png" class="card-img-top" alt="Screenshot of Tangle" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tangle</h5>
+                        <p class="card-text text-muted">Interactive number manipulation with draggable values in text.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/tangle/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/tangle.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="chartpuck" data-description="interactive chart editor with draggable control points.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/chartpuck.png" class="card-img-top" alt="Screenshot of ChartPuck" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ChartPuck</h5>
+                        <p class="card-text text-muted">Interactive chart editor with draggable control points.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/chartpuck/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/chartpuck.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget" data-name="chartselect" data-description="select data points on a chart interactively.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/chartselect.png" class="card-img-top" alt="Screenshot of ChartSelect" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ChartSelect</h5>
+                        <p class="card-text text-muted">Select data points on a chart interactively.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/wigglystuff/examples/chartselect/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/wigglystuff/blob/main/demos/chartselect.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="llm alphaXiv" data-name="gdpo vs grpo" data-description="a comparison of gdpo and grpo methods.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/gdpo-vs-grpo.png" class="card-img-top" alt="Screenshot of GDPO vs GRPO" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">GDPO vs GRPO</h5>
+                        <p class="card-text text-muted">A comparison of GDPO and GRPO methods.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">llm</span>
+                            
+                            <span class="badge bg-light text-dark me-1">alphaXiv</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_5UrxomLEzp7B3DoMV1KRYb" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://molab.marimo.io/notebooks/nb_5UrxomLEzp7B3DoMV1KRYb" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="llm alphaXiv" data-name="llm unlearning bigger" data-description="exploring unlearning in large language models.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/llm-unlearning.png" class="card-img-top" alt="Screenshot of LLM Unlearning Bigger" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">LLM Unlearning Bigger</h5>
+                        <p class="card-text text-muted">Exploring unlearning in large language models.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">llm</span>
+                            
+                            <span class="badge bg-light text-dark me-1">alphaXiv</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_CfbZrw69ejigHTz6yn9MaQ" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://molab.marimo.io/notebooks/nb_CfbZrw69ejigHTz6yn9MaQ" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="math widget anywidget" data-name="100 prisoners puzzle" data-description="an interactive simulation of the famous 100 prisoners probability puzzle.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/100-prisoners.png" class="card-img-top" alt="Screenshot of 100 Prisoners Puzzle" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">100 Prisoners Puzzle</h5>
+                        <p class="card-text text-muted">An interactive simulation of the famous 100 prisoners probability puzzle.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">math</span>
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="analysis finance dashboard" data-name="portfolio calculator" data-description="an interactive tool for portfolio analysis and investment calculations.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/investment.png" class="card-img-top" alt="Screenshot of Portfolio Calculator" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Calculator</h5>
+                        <p class="card-text text-muted">An interactive tool for portfolio analysis and investment calculations.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">analysis</span>
+                            
+                            <span class="badge bg-light text-dark me-1">finance</span>
+                            
+                            <span class="badge bg-light text-dark me-1">dashboard</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_Wq6zCfAURWbbd7YdvSVLZq" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://molab.marimo.io/notebooks/nb_Wq6zCfAURWbbd7YdvSVLZq" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="widget anywidget math" data-name="matrix decomposition" data-description="an interactive exploration of matrix decomposition techniques.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/matrix-decomposition.png" class="card-img-top" alt="Screenshot of Matrix Decomposition" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Matrix Decomposition</h5>
+                        <p class="card-text text-muted">An interactive exploration of matrix decomposition techniques.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1">widget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1">math</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <p class="text-center text-muted py-5" id="no-results" hidden>No notebooks found matching your search.</p>
+    </main>
+
+    <script src="search.js"></script>
+</body>
+</html>

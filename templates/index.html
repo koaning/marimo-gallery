@@ -33,7 +33,7 @@
             {% endfor %}
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="gallery">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
             {% for notebook in notebooks %}
             <div class="col" data-tags="{{ notebook.tags | join(' ') }}" data-name="{{ notebook.name | lower }}" data-description="{{ notebook.description | lower }}">
                 <div class="card h-100">
@@ -52,7 +52,7 @@
                     <div class="card-footer bg-transparent border-top-0">
                         <div class="d-flex gap-2">
                             <a href="{{ notebook.molab_url }}" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
-                                Run in marimo
+                                open in molab
                             </a>
                             <a href="{{ notebook.notebook_url }}" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
                                 View source
