@@ -15,16 +15,16 @@ A static site generator for showcasing marimo notebook demos.
 2. **Build process**: `build.py` is a marimo notebook that:
    - Reads `notebooks.yaml`
    - Renders `templates/index.html` with Jinja2
-   - Copies static assets to `dist/`
+   - Copies static assets to `docs/`
 
-3. **Output**: Static HTML in `dist/` that can be deployed anywhere
+3. **Output**: Static HTML in `docs/` that can be deployed anywhere (GitHub Pages compatible)
 
 ## Commands
 
 ```bash
-make build   # Generate dist/index.html
+make build   # Generate docs/index.html
 make serve   # Build and serve at localhost:8000
-make clean   # Remove dist/
+make clean   # Remove docs/
 ```
 
 ## Adding New Notebooks
