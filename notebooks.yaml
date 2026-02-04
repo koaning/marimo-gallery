@@ -1,0 +1,175 @@
+notebooks:
+  - name: "Slider2D"
+    description: "A 2D slider control for selecting x/y coordinates interactively."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/slider2d.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/slider2d/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/slider2d.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "Matrix"
+    description: "An interactive matrix editor for manipulating grid data."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/matrix.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/matrix/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/matrix.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "Paint"
+    description: "A drawing and painting canvas widget for freeform input."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/paint.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/paint/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/paint.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "EdgeDraw"
+    description: "Draw edges between nodes for graph creation."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/edgedraw.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/edgedraw/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/edgedraw.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "SortableList"
+    description: "A draggable list for reordering items interactively."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/sortlist.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/sortlist/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/sortablelist.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "ColorPicker"
+    description: "An interactive color selection widget."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/colorpicker.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/colorpicker/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/colorpicker.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "GamepadWidget"
+    description: "Capture input from gaming controllers."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/gamepad.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/gamepad/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/gamepad.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "KeystrokeWidget"
+    description: "Capture keyboard input and key combinations."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/keystroke.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/keystroke/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/keystroke.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "SpeechToText"
+    description: "Convert voice input to text using the browser's speech recognition."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/talk.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/talk/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/speechtotext.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "CopyToClipboard"
+    description: "A utility widget for copying content to the clipboard."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/copytoclipboard.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/copytoclipboard/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/copytoclipboard.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "CellTour"
+    description: "Create guided tours through notebook cells."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/celltour.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/celltour/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/celltour.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "WebcamCapture"
+    description: "Capture images from the webcam."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/webcam_capture.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/webcam_capture/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/webcam-capture.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "ThreeWidget"
+    description: "3D visualization widget using Three.js."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/threewidget.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/threewidget/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/threewidget.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "HTMLRefreshWidget"
+    description: "Render dynamic HTML content that auto-refreshes."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/htmlwidget.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/htmlwidget/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/htmlwidget.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "PulsarChart"
+    description: "Radial chart visualization inspired by pulsar diagrams."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/pulsarchart.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/pulsarchart/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/pulsarchart.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "TextCompare"
+    description: "Compare and diff two text inputs side by side."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/textcompare.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/textcompare/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/textcompare.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "EnvConfig"
+    description: "Configure environment variables interactively."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/envconfig.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/envconfig/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/envconfig.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "Tangle"
+    description: "Interactive number manipulation with draggable values in text."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/tangle.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/tangle/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/tangle.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "ChartPuck"
+    description: "Interactive chart editor with draggable control points."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/chartpuck.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/chartpuck/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/chartpuck.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "ChartSelect"
+    description: "Select data points on a chart interactively."
+    notebook_url: "https://github.com/koaning/wigglystuff/blob/main/demos/chartselect.py"
+    molab_url: "https://koaning.github.io/wigglystuff/examples/chartselect/"
+    screenshot_path: "https://raw.githubusercontent.com/koaning/wigglystuff/main/mkdocs/assets/gallery/chartselect.png"
+    tags: ["anywidget", "widget"]
+
+  - name: "GDPO vs GRPO"
+    description: "A comparison of GDPO and GRPO methods."
+    notebook_url: "https://molab.marimo.io/notebooks/nb_5UrxomLEzp7B3DoMV1KRYb"
+    molab_url: "https://molab.marimo.io/notebooks/nb_5UrxomLEzp7B3DoMV1KRYb"
+    screenshot_path: "screenshots/gdpo-vs-grpo.png"
+    tags: ["llm", "alphaXiv"]
+
+  - name: "LLM Unlearning Bigger"
+    description: "Exploring unlearning in large language models."
+    notebook_url: "https://molab.marimo.io/notebooks/nb_CfbZrw69ejigHTz6yn9MaQ"
+    molab_url: "https://molab.marimo.io/notebooks/nb_CfbZrw69ejigHTz6yn9MaQ"
+    screenshot_path: "screenshots/llm-unlearning.png"
+    tags: ["llm", "alphaXiv"]
+
+  - name: "100 Prisoners Puzzle"
+    description: "An interactive simulation of the famous 100 prisoners probability puzzle."
+    notebook_url: "https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv"
+    molab_url: "https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv"
+    screenshot_path: "screenshots/100-prisoners.png"
+    tags: ["math", "widget", "anywidget"]
+
+  - name: "Portfolio Calculator"
+    description: "An interactive tool for portfolio analysis and investment calculations."
+    notebook_url: "https://molab.marimo.io/notebooks/nb_Wq6zCfAURWbbd7YdvSVLZq"
+    molab_url: "https://molab.marimo.io/notebooks/nb_Wq6zCfAURWbbd7YdvSVLZq"
+    screenshot_path: "screenshots/investment.png"
+    tags: ["analysis", "finance", "dashboard"]
+
+  - name: "Matrix Decomposition"
+    description: "An interactive exploration of matrix decomposition techniques."
+    notebook_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
+    molab_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
+    screenshot_path: "screenshots/matrix-decomposition.png"
+    tags: ["widget", "anywidget", "math"]

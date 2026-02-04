@@ -1,0 +1,40 @@
+:root {
+    --marimo-green: #10b981;
+    --marimo-green-dark: #059669;
+}
+
+.bg-primary {
+    background-color: var(--marimo-green) !important;
+}
+
+.btn-primary {
+    background-color: var(--marimo-green);
+    border-color: var(--marimo-green);
+}
+
+.btn-primary:hover {
+    background-color: var(--marimo-green-dark);
+    border-color: var(--marimo-green-dark);
+}
+
+#tag-filters .btn.active {
+    background-color: var(--marimo-green);
+    border-color: var(--marimo-green);
+    color: white;
+}
+
+.col.hidden {
+    display: none;
+}
+
+.card-img-top-wrapper {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

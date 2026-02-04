@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marimo Notebook Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Marimo Notebook Gallery</h1>
+            <p class="lead">Discover reactive Python notebooks</p>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <div class="mb-4">
+            <input
+                type="search"
+                class="form-control form-control-lg"
+                id="search"
+                placeholder="Search notebooks..."
+                aria-label="Search notebooks"
+            >
+        </div>
+
+        <div class="mb-4" id="tag-filters">
+            <button class="btn btn-primary btn-sm me-1 mb-1 active" data-tag="all">All</button>
+            {% for tag in tags %}
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="{{ tag }}">{{ tag }}</button>
+            {% endfor %}
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
+            {% for notebook in notebooks %}
+            <div class="col" data-tags="{{ notebook.tags | join(' ') }}" data-name="{{ notebook.name | lower }}" data-description="{{ notebook.description | lower }}">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="{{ notebook.screenshot_path }}" class="card-img-top" alt="Screenshot of {{ notebook.name }}" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ notebook.name }}</h5>
+                        <p class="card-text text-muted">{{ notebook.description }}</p>
+                        <div class="mb-2">
+                            {% for tag in notebook.tags %}
+                            <span class="badge bg-light text-dark me-1">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="{{ notebook.molab_url }}" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="{{ notebook.notebook_url }}" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <p class="text-center text-muted py-5" id="no-results" hidden>No notebooks found matching your search.</p>
+    </main>
+
+    <script src="search.js"></script>
+</body>
+</html>
