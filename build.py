@@ -26,7 +26,7 @@ def _():
 @app.cell
 def _(Path):
     root = Path(__file__).parent
-    dist = root / "dist"
+    dist = root / "docs"
     return dist, root
 
 
