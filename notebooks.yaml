@@ -173,3 +173,10 @@ notebooks:
     molab_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
     screenshot_path: "screenshots/matrix-decomposition.png"
     tags: ["widget", "anywidget", "math"]
+
+  - name: "Dicekit"
+    description: "An interactive exploration of dice probability calculations and distributions."
+    notebook_url: "https://github.com/koaning/dicekit/blob/main/nbs/__init__.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_4YRN6d7HHn7eGSAsbKed7t"
+    screenshot_path: "screenshots/dicekit.png"
+    tags: ["math"]
