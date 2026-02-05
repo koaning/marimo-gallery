@@ -200,7 +200,7 @@ notebooks:
     notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/fastapi-gliner.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_RXzG2ADVBYbfRLis8fWjV5"
     screenshot_path: "screenshots/fastapi-gliner.png"
-    tags: ["fastapi", "nlp"]
+    tags: ["web", "ml"]
 
   - name: "Drawdata Scatter"
     description: "Draw scatter data interactively and visualize it with Altair histograms."
@@ -235,4 +235,4 @@ notebooks:
     notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/sklearn-clf.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_TuxB6Ng5BS6txNyPzr6CbU"
     screenshot_path: "screenshots/sklearn-clf.png"
-    tags: ["analysis", "dashboard"]
+    tags: ["ml", "analysis"]
