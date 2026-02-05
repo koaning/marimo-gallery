@@ -208,3 +208,10 @@ notebooks:
     molab_url: "https://koaning.github.io/drawdata/"
     screenshot_path: "screenshots/drawdata.png"
     tags: ["anywidget", "widget", "analysis"]
+
+  - name: "Seam Carving"
+    description: "Content-aware image resizing that preserves important features using dynamic programming."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/seam-carving/notebook.py"
+    molab_url: "https://huggingface.co/spaces/marimo-team/seam-carving"
+    screenshot_path: "screenshots/seam-carving.png"
+    tags: ["math", "analysis"]
