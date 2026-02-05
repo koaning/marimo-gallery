@@ -201,3 +201,10 @@ notebooks:
     molab_url: "https://molab.marimo.io/notebooks/nb_RXzG2ADVBYbfRLis8fWjV5"
     screenshot_path: "screenshots/fastapi-gliner.png"
     tags: ["fastapi", "nlp"]
+
+  - name: "Drawdata Scatter"
+    description: "Draw scatter data interactively and visualize it with Altair histograms."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/drawdata/scatter-demo.py"
+    molab_url: "https://koaning.github.io/drawdata/"
+    screenshot_path: "screenshots/drawdata.png"
+    tags: ["anywidget", "widget", "analysis"]
