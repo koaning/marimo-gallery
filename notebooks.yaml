@@ -215,3 +215,24 @@ notebooks:
     molab_url: "https://huggingface.co/spaces/marimo-team/seam-carving"
     screenshot_path: "screenshots/seam-carving.png"
     tags: ["math", "analysis"]
+
+  - name: "Altair Reactive Plots"
+    description: "Interactive Altair charts with brush selection and reactive filtering."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/altair-demo.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_gr2f5FBi9Ub9tB5GssYu4r/app"
+    screenshot_path: "screenshots/altair-demo.png"
+    tags: ["analysis", "dashboard"]
+
+  - name: "Federated Learning"
+    description: "Interactive simulation of federated learning with hospitals training local models and FedAvg aggregation."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/federated.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_r6nzmnUvfc9cRoeBr8axfm/"
+    screenshot_path: "screenshots/federated-learning.png"
+    tags: ["llm", "analysis"]
+
+  - name: "Sklearn Classification Workbook"
+    description: "Bootstrap scikit-learn classification models with automatic preprocessing and cross-validation."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/sklearn-clf.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_TuxB6Ng5BS6txNyPzr6CbU"
+    screenshot_path: "screenshots/sklearn-clf.png"
+    tags: ["analysis", "dashboard"]
