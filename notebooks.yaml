@@ -236,3 +236,31 @@ notebooks:
     molab_url: "https://molab.marimo.io/notebooks/nb_TuxB6Ng5BS6txNyPzr6CbU"
     screenshot_path: "screenshots/sklearn-clf.png"
     tags: ["ml", "analysis"]
+
+  - name: "Lanchester's Law"
+    description: "Interactive simulation of Lanchester's Laws of combat"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/analysis/lanchesters-law/notebook.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_deBPsL9SwXRCZtAT5yVgr3"
+    screenshot_path: "screenshots/lanchesters-law.png"
+    tags: ["math", "analysis", "widget"]
+
+  - name: "Suguru"
+    description: "Interactive Suguru puzzle solver and generator"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/analysis/suguru/notebook.py"
+    molab_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/analysis/suguru/notebook.py"
+    screenshot_path: "screenshots/suguru.png"
+    tags: ["math", "analysis", "widget"]
+
+  - name: "Evolutionary Strategies"
+    description: "Interactive exploration of evolutionary optimization algorithms"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/algorithms/evolutionary-strategies.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_hTDF1qH4cNph29VhAdR5H8"
+    screenshot_path: "screenshots/evolutionary-strategies.png"
+    tags: ["math", "algorithm"]
+
+  - name: "Smoothed Gradient Descent"
+    description: "Visualize gradient descent with momentum and smoothing techniques"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/algorithms/smoothed-gradient-descent.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_bgrfmGu5VcwFNvzYEiLRTj"
+    screenshot_path: "screenshots/smoothed-gradient-descent.png"
+    tags: ["math", "algorithm"]
