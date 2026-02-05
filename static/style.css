@@ -38,3 +38,13 @@
     height: 100%;
     object-fit: cover;
 }
+
+.tag-badge {
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.tag-badge:hover {
+    background-color: var(--marimo-green) !important;
+    color: white !important;
+}

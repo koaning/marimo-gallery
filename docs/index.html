@@ -26,7 +26,7 @@
             >
         </div>
 
-        <div class="mb-4" id="tag-filters">
+        <div class="mb-4 d-flex flex-wrap align-items-center" id="tag-filters">
             <button class="btn btn-primary btn-sm me-1 mb-1 active" data-tag="all">All</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="alphaXiv">alphaXiv</button>
@@ -37,14 +37,19 @@
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="dashboard">dashboard</button>
             
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="fastapi">fastapi</button>
+            
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="finance">finance</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="llm">llm</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="math">math</button>
             
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="nlp">nlp</button>
+            
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="widget">widget</button>
             
+            <button class="btn btn-outline-dark btn-sm ms-auto mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
@@ -59,9 +64,9 @@
                         <p class="card-text text-muted">A 2D slider control for selecting x/y coordinates interactively.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -88,9 +93,9 @@
                         <p class="card-text text-muted">An interactive matrix editor for manipulating grid data.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -117,9 +122,9 @@
                         <p class="card-text text-muted">A drawing and painting canvas widget for freeform input.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -146,9 +151,9 @@
                         <p class="card-text text-muted">Draw edges between nodes for graph creation.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -175,9 +180,9 @@
                         <p class="card-text text-muted">A draggable list for reordering items interactively.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -204,9 +209,9 @@
                         <p class="card-text text-muted">An interactive color selection widget.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -233,9 +238,9 @@
                         <p class="card-text text-muted">Capture input from gaming controllers.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -262,9 +267,9 @@
                         <p class="card-text text-muted">Capture keyboard input and key combinations.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -291,9 +296,9 @@
                         <p class="card-text text-muted">Convert voice input to text using the browser's speech recognition.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -320,9 +325,9 @@
                         <p class="card-text text-muted">A utility widget for copying content to the clipboard.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -349,9 +354,9 @@
                         <p class="card-text text-muted">Create guided tours through notebook cells.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -378,9 +383,9 @@
                         <p class="card-text text-muted">Capture images from the webcam.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -407,9 +412,9 @@
                         <p class="card-text text-muted">3D visualization widget using Three.js.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -436,9 +441,9 @@
                         <p class="card-text text-muted">Render dynamic HTML content that auto-refreshes.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -465,9 +470,9 @@
                         <p class="card-text text-muted">Radial chart visualization inspired by pulsar diagrams.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -494,9 +499,9 @@
                         <p class="card-text text-muted">Compare and diff two text inputs side by side.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -523,9 +528,9 @@
                         <p class="card-text text-muted">Configure environment variables interactively.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -552,9 +557,9 @@
                         <p class="card-text text-muted">Interactive number manipulation with draggable values in text.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -581,9 +586,9 @@
                         <p class="card-text text-muted">Interactive chart editor with draggable control points.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -610,9 +615,9 @@
                         <p class="card-text text-muted">Select data points on a chart interactively.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
                         </div>
                     </div>
@@ -639,9 +644,9 @@
                         <p class="card-text text-muted">A comparison of GDPO and GRPO methods.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">llm</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="llm">llm</span>
                             
-                            <span class="badge bg-light text-dark me-1">alphaXiv</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="alphaXiv">alphaXiv</span>
                             
                         </div>
                     </div>
@@ -668,9 +673,9 @@
                         <p class="card-text text-muted">Exploring unlearning in large language models.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">llm</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="llm">llm</span>
                             
-                            <span class="badge bg-light text-dark me-1">alphaXiv</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="alphaXiv">alphaXiv</span>
                             
                         </div>
                     </div>
@@ -687,7 +692,7 @@
                 </div>
             </div>
             
-            <div class="col" data-tags="math widget anywidget" data-name="100 prisoners puzzle" data-description="an interactive simulation of the famous 100 prisoners probability puzzle.">
+            <div class="col" data-tags="math widget anywidget analysis" data-name="100 prisoners puzzle" data-description="an interactive simulation of the famous 100 prisoners probability puzzle.">
                 <div class="card h-100">
                     <div class="card-img-top-wrapper">
                         <img src="screenshots/100-prisoners.png" class="card-img-top" alt="Screenshot of 100 Prisoners Puzzle" loading="lazy">
@@ -697,11 +702,13 @@
                         <p class="card-text text-muted">An interactive simulation of the famous 100 prisoners probability puzzle.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">math</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="math">math</span>
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
                             
                         </div>
                     </div>
@@ -728,11 +735,11 @@
                         <p class="card-text text-muted">An interactive tool for portfolio analysis and investment calculations.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">analysis</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
                             
-                            <span class="badge bg-light text-dark me-1">finance</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="finance">finance</span>
                             
-                            <span class="badge bg-light text-dark me-1">dashboard</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="dashboard">dashboard</span>
                             
                         </div>
                     </div>
@@ -759,11 +766,11 @@
                         <p class="card-text text-muted">An interactive exploration of matrix decomposition techniques.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">widget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
                             
-                            <span class="badge bg-light text-dark me-1">anywidget</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
                             
-                            <span class="badge bg-light text-dark me-1">math</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="math">math</span>
                             
                         </div>
                     </div>
@@ -790,7 +797,7 @@
                         <p class="card-text text-muted">An interactive exploration of dice probability calculations and distributions.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1">math</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="math">math</span>
                             
                         </div>
                     </div>
@@ -800,6 +807,93 @@
                                 open in molab
                             </a>
                             <a href="https://github.com/koaning/dicekit/blob/main/nbs/__init__.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="dashboard analysis" data-name="world of warcraft bot detection" data-description="interactive visualization for detecting bots in wow player data using session length analysis.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/world-of-warcraft.png" class="card-img-top" alt="Screenshot of World of Warcraft Bot Detection" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">World of Warcraft Bot Detection</h5>
+                        <p class="card-text text-muted">Interactive visualization for detecting bots in WoW player data using session length analysis.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="dashboard">dashboard</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_Nj7jWosvfpr1xr5BqFEjEC" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/dashboard/world-of-warcraft.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="dashboard analysis" data-name="lego price explorer" data-description="explore price differences across lego themes and analyze price-per-piece patterns.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/lego-dashboard.png" class="card-img-top" alt="Screenshot of Lego Price Explorer" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Lego Price Explorer</h5>
+                        <p class="card-text text-muted">Explore price differences across Lego themes and analyze price-per-piece patterns.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="dashboard">dashboard</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_ArFh79H8KEmYgqp6Vf35iB" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/dashboard/lego/notebook.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="fastapi nlp" data-name="fastapi + gliner" data-description="demo showing gliner v2 for zero-shot entity extraction, runnable as webapp, api, or cli.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/fastapi-gliner.png" class="card-img-top" alt="Screenshot of FastAPI + GliNER" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">FastAPI + GliNER</h5>
+                        <p class="card-text text-muted">Demo showing GliNER v2 for zero-shot entity extraction, runnable as webapp, API, or CLI.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="fastapi">fastapi</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="nlp">nlp</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_RXzG2ADVBYbfRLis8fWjV5" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/fastapi-gliner.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
                                 View source
                             </a>
                         </div>

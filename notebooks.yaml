@@ -158,7 +158,7 @@ notebooks:
     notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/100-prisoners.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv"
     screenshot_path: "screenshots/100-prisoners.png"
-    tags: ["math", "widget", "anywidget"]
+    tags: ["math", "widget", "anywidget", "analysis"]
 
   - name: "Portfolio Calculator"
     description: "An interactive tool for portfolio analysis and investment calculations."
@@ -180,3 +180,24 @@ notebooks:
     molab_url: "https://molab.marimo.io/notebooks/nb_4YRN6d7HHn7eGSAsbKed7t"
     screenshot_path: "screenshots/dicekit.png"
     tags: ["math"]
+
+  - name: "World of Warcraft Bot Detection"
+    description: "Interactive visualization for detecting bots in WoW player data using session length analysis."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/dashboard/world-of-warcraft.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_Nj7jWosvfpr1xr5BqFEjEC"
+    screenshot_path: "screenshots/world-of-warcraft.png"
+    tags: ["dashboard", "analysis"]
+
+  - name: "Lego Price Explorer"
+    description: "Explore price differences across Lego themes and analyze price-per-piece patterns."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/dashboard/lego/notebook.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_ArFh79H8KEmYgqp6Vf35iB"
+    screenshot_path: "screenshots/lego-dashboard.png"
+    tags: ["dashboard", "analysis"]
+
+  - name: "FastAPI + GliNER"
+    description: "Demo showing GliNER v2 for zero-shot entity extraction, runnable as webapp, API, or CLI."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/fastapi-gliner.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_RXzG2ADVBYbfRLis8fWjV5"
+    screenshot_path: "screenshots/fastapi-gliner.png"
+    tags: ["fastapi", "nlp"]
