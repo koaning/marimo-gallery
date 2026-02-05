@@ -26,11 +26,12 @@
             >
         </div>
 
-        <div class="mb-4" id="tag-filters">
+        <div class="mb-4 d-flex flex-wrap align-items-center" id="tag-filters">
             <button class="btn btn-primary btn-sm me-1 mb-1 active" data-tag="all">All</button>
             {% for tag in tags %}
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="{{ tag }}">{{ tag }}</button>
             {% endfor %}
+            <button class="btn btn-outline-dark btn-sm ms-auto mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
@@ -45,7 +46,7 @@
                         <p class="card-text text-muted">{{ notebook.description }}</p>
                         <div class="mb-2">
                             {% for tag in notebook.tags %}
-                            <span class="badge bg-light text-dark me-1">{{ tag }}</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="{{ tag }}">{{ tag }}</span>
                             {% endfor %}
                         </div>
                     </div>
