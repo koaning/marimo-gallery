@@ -31,7 +31,8 @@
             {% for tag in tags %}
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="{{ tag }}">{{ tag }}</button>
             {% endfor %}
-            <button class="btn btn-outline-dark btn-sm ms-auto mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
+            <span class="text-muted ms-auto me-2 mb-1" id="notebook-count"></span>
+            <button class="btn btn-outline-dark btn-sm mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">

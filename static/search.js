@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const columns = document.querySelectorAll('.col[data-tags]');
     const noResults = document.getElementById('no-results');
     const shuffleBtn = document.getElementById('shuffle-btn');
+    const notebookCount = document.getElementById('notebook-count');
+    const totalCount = columns.length;
 
     let activeTag = 'all';
 
@@ -57,6 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         noResults.hidden = visibleCount > 0;
+        notebookCount.textContent = visibleCount === totalCount
+            ? `${totalCount} notebooks`
+            : `${visibleCount} of ${totalCount} notebooks`;
     }
 
     function shuffleGallery() {
@@ -74,6 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const tagFromURL = urlParams.get('tag');
     if (tagFromURL) {
         setActiveTag(tagFromURL);
+    } else {
+        filterCards();
     }
 
     searchInput.addEventListener('input', filterCards);

@@ -37,19 +37,20 @@
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="dashboard">dashboard</button>
             
-            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="fastapi">fastapi</button>
-            
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="finance">finance</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="llm">llm</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="math">math</button>
             
-            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="nlp">nlp</button>
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="ml">ml</button>
+            
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="web">web</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="widget">widget</button>
             
-            <button class="btn btn-outline-dark btn-sm ms-auto mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
+            <span class="text-muted ms-auto me-2 mb-1" id="notebook-count"></span>
+            <button class="btn btn-outline-dark btn-sm mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
@@ -872,7 +873,7 @@
                 </div>
             </div>
             
-            <div class="col" data-tags="fastapi nlp" data-name="fastapi + gliner" data-description="demo showing gliner v2 for zero-shot entity extraction, runnable as webapp, api, or cli.">
+            <div class="col" data-tags="web ml" data-name="fastapi + gliner" data-description="demo showing gliner v2 for zero-shot entity extraction, runnable as webapp, api, or cli.">
                 <div class="card h-100">
                     <div class="card-img-top-wrapper">
                         <img src="screenshots/fastapi-gliner.png" class="card-img-top" alt="Screenshot of FastAPI + GliNER" loading="lazy">
@@ -882,9 +883,9 @@
                         <p class="card-text text-muted">Demo showing GliNER v2 for zero-shot entity extraction, runnable as webapp, API, or CLI.</p>
                         <div class="mb-2">
                             
-                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="fastapi">fastapi</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="web">web</span>
                             
-                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="nlp">nlp</span>
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="ml">ml</span>
                             
                         </div>
                     </div>
@@ -894,6 +895,153 @@
                                 open in molab
                             </a>
                             <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/fastapi-gliner.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="anywidget widget analysis" data-name="drawdata scatter" data-description="draw scatter data interactively and visualize it with altair histograms.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/drawdata.png" class="card-img-top" alt="Screenshot of Drawdata Scatter" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Drawdata Scatter</h5>
+                        <p class="card-text text-muted">Draw scatter data interactively and visualize it with Altair histograms.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="anywidget">anywidget</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://koaning.github.io/drawdata/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/drawdata/scatter-demo.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="math analysis" data-name="seam carving" data-description="content-aware image resizing that preserves important features using dynamic programming.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/seam-carving.png" class="card-img-top" alt="Screenshot of Seam Carving" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Seam Carving</h5>
+                        <p class="card-text text-muted">Content-aware image resizing that preserves important features using dynamic programming.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="math">math</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://huggingface.co/spaces/marimo-team/seam-carving" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/seam-carving/notebook.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="analysis dashboard" data-name="altair reactive plots" data-description="interactive altair charts with brush selection and reactive filtering.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/altair-demo.png" class="card-img-top" alt="Screenshot of Altair Reactive Plots" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Altair Reactive Plots</h5>
+                        <p class="card-text text-muted">Interactive Altair charts with brush selection and reactive filtering.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="dashboard">dashboard</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_gr2f5FBi9Ub9tB5GssYu4r/app" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/altair-demo.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="llm analysis" data-name="federated learning" data-description="interactive simulation of federated learning with hospitals training local models and fedavg aggregation.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/federated-learning.png" class="card-img-top" alt="Screenshot of Federated Learning" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Federated Learning</h5>
+                        <p class="card-text text-muted">Interactive simulation of federated learning with hospitals training local models and FedAvg aggregation.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="llm">llm</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_r6nzmnUvfc9cRoeBr8axfm/" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/federated.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="ml analysis" data-name="sklearn classification workbook" data-description="bootstrap scikit-learn classification models with automatic preprocessing and cross-validation.">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/sklearn-clf.png" class="card-img-top" alt="Screenshot of Sklearn Classification Workbook" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sklearn Classification Workbook</h5>
+                        <p class="card-text text-muted">Bootstrap scikit-learn classification models with automatic preprocessing and cross-validation.</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="ml">ml</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="analysis">analysis</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_TuxB6Ng5BS6txNyPzr6CbU" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/library/sklearn-clf.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
                                 View source
                             </a>
                         </div>
