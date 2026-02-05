@@ -141,35 +141,35 @@ notebooks:
 
   - name: "GDPO vs GRPO"
     description: "A comparison of GDPO and GRPO methods."
-    notebook_url: "https://molab.marimo.io/notebooks/nb_5UrxomLEzp7B3DoMV1KRYb"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/alphaxiv/gdpo/notebook.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_5UrxomLEzp7B3DoMV1KRYb"
     screenshot_path: "screenshots/gdpo-vs-grpo.png"
     tags: ["llm", "alphaXiv"]
 
   - name: "LLM Unlearning Bigger"
     description: "Exploring unlearning in large language models."
-    notebook_url: "https://molab.marimo.io/notebooks/nb_CfbZrw69ejigHTz6yn9MaQ"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/alphaxiv/llm-unlearning.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_CfbZrw69ejigHTz6yn9MaQ"
     screenshot_path: "screenshots/llm-unlearning.png"
     tags: ["llm", "alphaXiv"]
 
   - name: "100 Prisoners Puzzle"
     description: "An interactive simulation of the famous 100 prisoners probability puzzle."
-    notebook_url: "https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/100-prisoners.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_zRL6iaSXuaTWm7GDoc4gBv"
     screenshot_path: "screenshots/100-prisoners.png"
     tags: ["math", "widget", "anywidget"]
 
   - name: "Portfolio Calculator"
     description: "An interactive tool for portfolio analysis and investment calculations."
-    notebook_url: "https://molab.marimo.io/notebooks/nb_Wq6zCfAURWbbd7YdvSVLZq"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/dashboard/portfolio.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_Wq6zCfAURWbbd7YdvSVLZq"
     screenshot_path: "screenshots/investment.png"
     tags: ["analysis", "finance", "dashboard"]
 
   - name: "Matrix Decomposition"
     description: "An interactive exploration of matrix decomposition techniques."
-    notebook_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/matrix-decompositions.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
     screenshot_path: "screenshots/matrix-decomposition.png"
     tags: ["widget", "anywidget", "math"]
