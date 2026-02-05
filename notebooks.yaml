@@ -169,7 +169,7 @@ notebooks:
 
   - name: "Matrix Decomposition"
     description: "An interactive exploration of matrix decomposition techniques."
-    notebook_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/matrix-decompositions.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_pK99A88nw3xsvdQ2iG3ZSQ"
     screenshot_path: "screenshots/matrix-decomposition.png"
     tags: ["widget", "anywidget", "math"]
