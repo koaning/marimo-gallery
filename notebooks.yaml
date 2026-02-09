@@ -264,3 +264,10 @@ notebooks:
     molab_url: "https://molab.marimo.io/notebooks/nb_bgrfmGu5VcwFNvzYEiLRTj"
     screenshot_path: "screenshots/smoothed-gradient-descent.png"
     tags: ["math", "algorithm"]
+
+  - name: "Vector Puck" 
+    description: "Explore vector arithmetic with pucks over matplotlib"
+    notebook_url: 
+    molab_url: "https://molab.marimo.io/notebooks/nb_Yhp3WSYofic1ehb1813Fur"
+    screenshot_path: ""
+    tags: ["math", "widget"]
