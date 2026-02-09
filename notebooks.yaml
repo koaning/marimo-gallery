@@ -267,21 +267,21 @@ notebooks:
 
   - name: "Vector Puck" 
     description: "Explore vector arithmetic with pucks over matplotlib"
-    notebook_url: 
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/vector-puck.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_Yhp3WSYofic1ehb1813Fur"
-    screenshot_path: ""
+    screenshot_path: "screenshots/vector-puck.png"
     tags: ["math", "widget"]
 
   - name: "Vase with marimo-cad"
     description: "Make a vase for 3d printing with marimo-cad"
-    notebook_url: ""
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/cad/vase.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_y1A3RcSBE72YaeRSoxDMRi"
-    screenshot_path: ""
+    screenshot_path: "screenshots/cad-vase.png"
     tags: ["cad", "widget"]
 
   - name: "Bookshelf with marimo-cad"
     description: "Make a bookshelf, using sliders, with marimo-cad"
-    notebook_url: ""
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/cad/bookshelf.py"
     molab_url: "https://molab.marimo.io/notebooks/nb_s8VFvtyDdYFXyYscEgVpLX"
-    screenshot_path: ""
+    screenshot_path: "screenshots/cad-bookshelf.png"
     tags: ["cad", "widget"]

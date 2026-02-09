@@ -16,6 +16,11 @@
     </header>
 
     <main class="container py-4">
+        <div class="d-flex justify-content-end align-items-center gap-2 mb-2">
+            <span class="text-muted" id="notebook-count"></span>
+            <button class="btn btn-outline-dark btn-sm" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
+        </div>
+
         <div class="mb-4">
             <input
                 type="search"
@@ -37,6 +42,8 @@
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="anywidget">anywidget</button>
             
+            <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="cad">cad</button>
+            
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="dashboard">dashboard</button>
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="finance">finance</button>
@@ -51,8 +58,6 @@
             
             <button class="btn btn-outline-secondary btn-sm me-1 mb-1" data-tag="widget">widget</button>
             
-            <span class="text-muted ms-auto me-2 mb-1" id="notebook-count"></span>
-            <button class="btn btn-outline-dark btn-sm mb-1" id="shuffle-btn" title="Shuffle notebooks">🎲 Shuffle</button>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gallery">
@@ -1164,6 +1169,93 @@
                                 open in molab
                             </a>
                             <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/algorithms/smoothed-gradient-descent.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="math widget" data-name="vector puck" data-description="explore vector arithmetic with pucks over matplotlib">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/vector-puck.png" class="card-img-top" alt="Screenshot of Vector Puck" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vector Puck</h5>
+                        <p class="card-text text-muted">Explore vector arithmetic with pucks over matplotlib</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="math">math</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_Yhp3WSYofic1ehb1813Fur" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/vector-puck.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="cad widget" data-name="vase with marimo-cad" data-description="make a vase for 3d printing with marimo-cad">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/cad-vase.png" class="card-img-top" alt="Screenshot of Vase with marimo-cad" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vase with marimo-cad</h5>
+                        <p class="card-text text-muted">Make a vase for 3d printing with marimo-cad</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="cad">cad</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_y1A3RcSBE72YaeRSoxDMRi" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/cad/vase.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
+                                View source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" data-tags="cad widget" data-name="bookshelf with marimo-cad" data-description="make a bookshelf, using sliders, with marimo-cad">
+                <div class="card h-100">
+                    <div class="card-img-top-wrapper">
+                        <img src="screenshots/cad-bookshelf.png" class="card-img-top" alt="Screenshot of Bookshelf with marimo-cad" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bookshelf with marimo-cad</h5>
+                        <p class="card-text text-muted">Make a bookshelf, using sliders, with marimo-cad</p>
+                        <div class="mb-2">
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="cad">cad</span>
+                            
+                            <span class="badge bg-light text-dark me-1 tag-badge" role="button" data-tag="widget">widget</span>
+                            
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent border-top-0">
+                        <div class="d-flex gap-2">
+                            <a href="https://molab.marimo.io/notebooks/nb_s8VFvtyDdYFXyYscEgVpLX" class="btn btn-primary btn-sm flex-fill" target="_blank" rel="noopener">
+                                open in molab
+                            </a>
+                            <a href="https://github.com/koaning/marimo-gallery/blob/main/notebooks/cad/bookshelf.py" class="btn btn-outline-secondary btn-sm flex-fill" target="_blank" rel="noopener">
                                 View source
                             </a>
                         </div>
