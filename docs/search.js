@@ -74,6 +74,9 @@ document.addEventListener('DOMContentLoaded', () => {
         columnsArray.forEach(col => gallery.appendChild(col));
     }
 
+    // Shuffle on every page load
+    shuffleGallery();
+
     // Read tag from URL on page load
     const urlParams = new URLSearchParams(window.location.search);
     const tagFromURL = urlParams.get('tag');
