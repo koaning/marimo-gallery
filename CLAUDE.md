@@ -29,7 +29,7 @@ make clean   # Remove docs/
 
 ## Adding New Notebooks
 
-Edit `notebooks.yaml` and add a new entry. The build will automatically pick up new entries and generate tag filters.
+Edit `notebooks.yaml` and add a new entry. The build will automatically pick up new entries and generate tag filters. Do not use the "anywidget" tag — use "widget" instead.
 
 ## Tech Stack
 

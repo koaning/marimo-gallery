@@ -285,3 +285,24 @@ notebooks:
     molab_url: "https://molab.marimo.io/notebooks/nb_s8VFvtyDdYFXyYscEgVpLX"
     screenshot_path: "screenshots/cad-bookshelf.png"
     tags: ["cad", "widget"]
+
+  - name: "Roessler Attractor with jscatter"
+    description: "Blazing fast scatter plot of 1M Roessler attractor points using jscatter, with pan, zoom, and lasso selection."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/math/attractor.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_1nvZMhSctUFGgHR9pDba4E"
+    screenshot_path: "screenshots/attractor.png"
+    tags: ["math", "widget"]
+
+  - name: "WandbChart"
+    description: "Live-updating Weights & Biases metric charts that poll the wandb API from JavaScript."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/external/wandbchart.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_pbN8i6DyggB26Xrzw9Bztw"
+    screenshot_path: "screenshots/wandbchart.png"
+    tags: ["widget", "ml"]
+
+  - name: "Neo4j Widget"
+    description: "Interactive graph explorer for Neo4j databases with node selection."
+    notebook_url: "https://github.com/koaning/marimo-gallery/blob/main/notebooks/external/neo4jwidget.py"
+    molab_url: "https://molab.marimo.io/notebooks/nb_ghifaw8nRCuDAgc1UTajXU"
+    screenshot_path: "screenshots/neo4j.png"
+    tags: ["widget"]
